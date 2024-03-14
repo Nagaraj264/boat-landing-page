@@ -1,0 +1,203 @@
+/* Bootstrap CSS */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* Custom CSS */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Home Section */
+#home-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+/* About Section */
+#about-section {
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
+
+/* Feature Section */
+#feature-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.feature-section-title h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.box {
+    margin-bottom: 30px;
+}
+
+/* Product Section */
+#product-section {
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
+
+.product-section-title h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.product-box {
+    margin-bottom: 30px;
+}
+
+/* Testimonial Section */
+#testimonial-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.testimonial-section-title h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.testimonial-box {
+    margin-bottom: 30px;
+}
+
+/* FAQ Section */
+#faq-section {
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
+
+.faq-section-title h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.card-header button {
+    text-align: left;
+    width: 100%;
+}
+
+.card-body {
+    padding-top: 0;
+}
+
+/* Contact Section */
+#contact-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.contact-section-title h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Footer Section */
+#footer-section {
+    color: #ffffff;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+    }
+
+    .navbar-collapse {
+        background-color: #ffffff;
+        margin-top: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-collapse ul {
+        padding: 0;
+    }
+
+    .navbar-collapse li {
+        padding: 10px;
+    }
+
+    .navbar-collapse .nav-link {
+        color: #333 !important;
+        padding: 10px 15px;
+    }
+
+    .navbar-collapse .nav-link:hover {
+        color: #007bff !important;
+    }
+
+    .navbar-collapse .btn-primary {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #home-section,
+    #about-section,
+    #feature-section,
+    #product-section,
+    #testimonial-section,
+    #faq-section,
+    #contact-section,
+    #footer-section {
+        padding: 50px 0;
+    }
+
+    .feature-section-title p,
+    .product-section-title p,
+    .testimonial-section-title p,
+    .faq-section-title p,
+    .contact-section-title p {
+        text-align: center;
+    }
+ 
+    .btn-lg:hover {
+        transform: scale(1.1); /* Scale the button to 110% on hover */
+    }
+    .product-box {
+        transition: transform 0.3s ease-in-out;
+      }
+      .product-box:hover {
+        transform: scale(1.1);
+      }
+
+}
